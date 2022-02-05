@@ -1,3 +1,10 @@
-console.log("HELLO FROM OUR FIRST JS FILE!!!!");
-let total = 1 + 3;
-console.log("GOODBYE");
+let random = Math.random();
+if (random < 0.5) {
+  console.log("YOUR NUMBER IS LESS THAN 0.5!!!");
+  console.log(random);
+}
+
+if (random >= 0.5) {
+  console.log("YOUR NUMBER IS GREATER THAN O.5!!!");
+  console.log(random);
+}
